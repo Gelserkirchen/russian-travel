@@ -1,0 +1,146 @@
+@import url(vendor/normalize.css);
+@import url(vendor/fonts.css);
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    background-color: #2A2C2F;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 0 48px;
+}
+
+.header__lang-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter Regular", serif;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
+.page {
+    max-width: 1024px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.lead {
+    display: flex;
+    margin: 0 auto 96px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 928px;
+}
+
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    font-family: "Inter Black", serif;
+    margin-bottom: 32px;
+    max-width: 720px;
+}
+
+.lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    font-family: "Inter Regular", serif;
+    font-weight: 400;
+    margin-bottom: 56px;
+    max-width: 640px;
+}
+
+.lead__image {
+    /*width: 928px;*/
+    height: 580px;
+    margin-bottom: 8px;
+}
+
+.lead__caption {
+    font-size: 10px;
+    line-height: 14px;
+    text-align: left;
+    font-family: "Inter Regular", serif;
+    align-self: flex-start;
+}
+
+.intro {
+    max-width: 690px;
+    margin-left: 48px;
+    padding-left: 0;
+}
+
+.intro__list {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    font-family: "Inter Bold", serif;
+    margin-bottom: 92px;
+}
+
+.intro__number {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    font-family: "Inter Regular", serif;
+}
+
+.intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    text-align: left;
+    font-family: "Inter Black", serif;
+    margin-bottom: 40px;
+}
+
+.intro__text {
+    margin-bottom: 33px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    font-family: "Inter Regular", serif;
+}
+
+.photo-grid {
+    max-width: 928px;
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-columns: minmax(100px, auto);
+    grid-gap: 14px 14px;
+}
+
+.photo-grid__item {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.places {
+    display: flex;
+
+}
+
+*, div, p {
+    outline: 1px solid red;
+}
+
+
