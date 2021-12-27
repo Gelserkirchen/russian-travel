@@ -1,0 +1,12 @@
+.places__link {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-align: left;
+    font-family: "Inter Regular", serif;
+}
+
+.places__link:hover {
+    opacity: 0.8;
+}
