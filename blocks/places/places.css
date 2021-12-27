@@ -3,6 +3,7 @@
     flex-direction: column;
     margin: 0 48px 92px;
     row-gap: 80px;
+    padding: 0;
 }
 
 @media screen and (max-width: 935px) {
@@ -14,11 +15,6 @@
 @media screen and (max-width: 877px) {
     .places {
         margin: 0 24px 90px;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .places {
         row-gap: 73px;
     }
 }

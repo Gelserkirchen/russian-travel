@@ -5,5 +5,6 @@
     text-align: left;
     color: #AAA;
     font-family: "Inter Regular", serif;
-    margin-bottom: 12px;
+    margin: 0 0 12px;
+    padding: 0;
 }

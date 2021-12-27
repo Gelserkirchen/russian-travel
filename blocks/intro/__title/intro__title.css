@@ -3,7 +3,8 @@
     line-height: 58px;
     text-align: left;
     font-family: "Inter Black", serif;
-    margin-bottom: 40px;
+    margin: 0 0 40px;
+    padding: 0;
 }
 
 @media screen and (max-width: 370px) {

@@ -5,6 +5,8 @@
     color: #fff;
     text-align: left;
     font-family: "Inter Regular", serif;
+    margin: 0;
+    padding: 0;
 }
 
 .places__link:hover {

@@ -1,8 +1,8 @@
 .places__paragraphs {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
-    grid-gap: 27px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 370px) {
