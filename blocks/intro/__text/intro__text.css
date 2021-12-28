@@ -4,4 +4,5 @@
     line-height: 26px;
     text-align: left;
     font-family: "Inter Regular", serif;
+    -webkit-font-smoothing: antialiased;
 }

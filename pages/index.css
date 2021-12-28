@@ -35,17 +35,3 @@
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__website/places__website.css);
 
-
-/**,*/
-/**:after,*/
-/**:before {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
-
-*, div, p {
-    outline: 1px solid red;
-}
-
-
