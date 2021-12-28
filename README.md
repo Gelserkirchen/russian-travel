@@ -2,7 +2,7 @@
 ____________________
 
 ##Финальный результат:
-[Сайт на GitHub Pages](https://ru.bem.info/methodology/)
+[Сайт на GitHub Pages](https://gelserkirchen.github.io/russian-travel/index.html)
 
 ## Функциональность:
 Просмотр достопримечательностей России
