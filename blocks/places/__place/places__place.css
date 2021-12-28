@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 688px) {
     .places__place {
-        grid-template-columns: 47.45% minmax(178px, auto)
+        grid-template-columns: 47.45% minmax(178px, auto);
     }
 }
 
