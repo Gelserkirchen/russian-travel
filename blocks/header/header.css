@@ -2,8 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 28px 48px 48px;
+    margin: 28px 48px 56px;
     padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }
 }
 
 @media screen and (max-width: 935px) {
