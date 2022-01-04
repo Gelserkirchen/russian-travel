@@ -17,4 +17,10 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    .footer {
+        margin: 0 auto 24px 16px;
+    }
+}
+
 
