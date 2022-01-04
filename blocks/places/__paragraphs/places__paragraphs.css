@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 370px) {
     .places__paragraphs {
-        grid-gap: 25px;
+        gap: 25px;
     }
 }

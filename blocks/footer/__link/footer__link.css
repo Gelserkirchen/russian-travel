@@ -4,9 +4,14 @@
     color: #fff;
     line-height: 18px;
     text-align: left;
-    font-family: "Inter Regular", serif;
+    font-family: "Inter", serif;
+    font-weight: 400;
     margin: 0 18px 0 0;
     padding: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 .footer__link:last-of-type {

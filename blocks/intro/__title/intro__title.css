@@ -2,20 +2,14 @@
     font-size: 54px;
     line-height: 58px;
     text-align: left;
-    font-family: "Inter Black", serif;
+    font-family: "Inter", serif;
+    font-weight: 900;
     margin: 0 0 40px;
     padding: 0;
 }
 
 @media screen and (max-width: 370px) {
     .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .cover__title {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 16px;

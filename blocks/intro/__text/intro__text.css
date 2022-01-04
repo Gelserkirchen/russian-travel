@@ -3,6 +3,7 @@
     font-size: 16px;
     line-height: 26px;
     text-align: left;
-    font-family: "Inter Regular", serif;
+    font-family: "Inter", serif;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }

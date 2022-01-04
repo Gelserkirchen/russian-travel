@@ -3,7 +3,8 @@
     line-height: 14px;
     text-align: left;
     letter-spacing: 1.5px;
-    font-family: "Inter Regular", serif;
+    font-family: "Inter", serif;
+    font-weight: 400;
     align-self: flex-start;
     margin: 0;
     padding: 0;
